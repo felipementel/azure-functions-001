@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Training.FunctionApp.TimerTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7051 --pause-on-error",
+      "environmentVariables": {
+      }
+    }
+  }
+}

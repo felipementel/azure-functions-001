@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Training.FunctionApp.HttpTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7061 --pause-on-error",
+      "environmentVariables": {
+        "CosmosDB_ConnectionString": "mongodb://cosmos-function-training:c7GH1VYMjxNZxonbSRaXRPux4k9jZ9bOIMzH1H37u5HI4TS4o75IAIdoMLnpPitRgxMRcfzyfzRta36zs8neQA==@cosmos-function-training.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@cosmos-function-training@",
+        "CosmosDB_Database": "Training",
+        "CosmosDB_Collection": "User",
+        "AzureSQL_ConnectionString": "Server=tcp:sql-function-training.database.windows.net,1433;Initial Catalog=sqldb-function-training;Persist Security Info=False;User ID=adminFelipe;Password=Abcd1234%;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      }
+    }
+  }
+}
